@@ -59,7 +59,7 @@ function ReadAll() {
 
   // Realizar requisição para backend obtendo a lista de itens
   async function realizarRequisicao() {
-    const url = "https://fullstackfrontendandbackend.onrender.com";
+    const url = "https://fullstackfrontendandbackend.onrender.com/item";
     const response = await fetch(url);
     const data = await response.json();
 
